@@ -18,18 +18,8 @@ GPIO.setup(13,GPIO.IN)#button
 
 while True:
     input = GPIO.input(13)
-    # p = GPIO.PWM(7,50)
-    # p.start(7.5)
-    # p.ChangeDutyCycle(7.5) #neutral
-    # time.sleep(1)
-    # p.ChangeDutyCycle(12.5) #180 degrees
-    # time.sleep(1)
-    # p.ChangeDutyCycle(2.5) #0 degrees
-    # time.sleep(1)
 
-# while True:
-	# input = GPIO.input(13)
-#email  
+ 
     if input == True:
 		print ("SSSS!")
 		fromaddr = "segoj297@newschool.edu"	    
